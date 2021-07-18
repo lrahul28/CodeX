@@ -1,12 +1,12 @@
 # CodeX - Launch Your Code
 
-This Project is basically a conventional coding platform that provides specialized  
+CodeX is a conventional coding platform that provides specialized 
 environment that consolidates students programming abilities 
 and learning process related to competitive coding.
 
 The salient features include a convenient editor. 
 Conduction of weekly coding competitions and a weekly.
-A real-time leaderboard that constantly tracks the top contestants during a ongoing contest and also on weekly basis.
+A real-time leaderboard that constantly keep track of the top contestants during an ongoing contest and also on weekly basis.
 
 Moreover, this project is also intended to provide an assistance 
 to faculty in evaluating students programming assignments. 
