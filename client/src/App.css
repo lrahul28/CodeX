@@ -1,0 +1,367 @@
+.carousel {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+
+.logo{
+  margin-left: -3%;
+  margin-top: -0.5%;
+  width: 20%;
+  float: left;
+}
+.navi{
+  background-color: lightgrey;
+}
+.menu{
+  text-decoration: none;
+float: right
+}
+.menu a{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+.menu li a:hover{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: darkslategray
+}
+.menu li{ 
+  list-style-type: none;
+  padding-right: 20px;
+  margin-top: 5px;
+  float: left;
+  text-decoration: none;
+}
+
+.nav-links{
+  align-self: auto;
+}
+
+.custom-tag {
+  max-width: 100%;
+  height: 350px;
+  background: black;
+}
+
+/* #####################END OF NAVBAR#################### */
+/* #####################START OF SIGNUP################## */
+
+
+
+  .grbut{
+  width: 280px;
+  margin-left: 50px;
+  }
+  #register{
+  top: 40px;
+      position: absolute;
+      left: -330px;
+      transition: transform 1s;
+      height: 80px;
+  }
+  .page{
+      align-items: center;
+      display: flexbox;
+      width: 100%;
+      height: 560px;
+      background-size: 60%;
+      background-position: left;
+      background-position-y: 40%;
+      background-repeat: no-repeat;
+      background-color: ghostwhite;
+      margin: 0%;
+  }
+  .gbut{
+      margin-left: 60px;
+      margin-top: 40px;
+  }
+  .signel{
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+      position: relative;
+      width: 30%;
+      height: 475px;
+      text-align: center;
+      border-left: 6px solid royalblue;    
+  }
+  #login{
+      margin-top: 130px;
+  left: 0;
+  transition: transform 1s;
+  }
+  .signel{
+      position: absolute;
+      margin-top: 15px;
+      height: 530px;
+      margin-left: 800px;
+      overflow: hidden;
+  
+  }
+  .signel span{
+      cursor: pointer;
+      font-weight: bold;
+      font-family: sans-serif;
+      padding: 0 10px;
+      width: 100px;
+  }
+  h1{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+  position: absolute;
+  margin-left: 65px;
+  margin-top: 10px;
+  color: dodgerblue;
+  }
+  .btnbox{
+      position: absolute;
+      margin-left: 110px;
+      margin-top: 20px;
+      border-radius: 20px;
+  }
+  #ind{
+      width: 60px;
+      border: none;
+      margin-left: 44px;
+      background: rgb(73, 100, 180);
+      height: 3px;
+      margin-top: 4px;
+      transform: translate(-43px);
+      transition: transform 1s;
+  }
+
+  /* ###########################END OF SIGNUP##################### */
+  /* ###########################Start OF Footer##################### */
+  
+  .site-footer
+  {
+    background-color:#606164;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#696868;
+  }
+  .site-footer hr
+  {
+    border-top-color:#bbb;
+    opacity:0.5
+  }
+  .site-footer hr.small
+  {
+    margin:20px 0
+  }
+  .site-footer h6
+  {
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+  .site-footer a
+  {
+    color:#f0f0f0;
+  }
+  .site-footer a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .footer-links
+  {
+    padding-left:0;
+    list-style:none
+  }
+  .footer-links li
+  {
+    display:block
+  }
+  .footer-links a
+  {
+    color:#dadada
+  }
+  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .footer-links.inline li
+  {
+    display:inline-block
+  }
+  .site-footer .social-icons
+  {
+    text-align:right
+  }
+  .site-footer .social-icons a
+  {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#b8b9be
+  }
+  .copyright-text
+  {
+    color: #c3c8ca;
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+    .site-footer
+    {
+      padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+      text-align:center
+    }
+  }
+  .social-icons
+  {
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+  }
+  .social-icons li
+  {
+    display:inline-block;
+    margin-bottom:4px
+  }
+  .social-icons li.title
+  {
+    margin-right:15px;
+    text-transform:uppercase;
+    color:#96a2b2;
+    font-weight:700;
+    font-size:13px
+  }
+  .social-icons a{
+    background-color:#eceeef;
+    color:#818a91;
+    font-size:16px;
+    display:inline-block;
+    line-height:44px;
+    width:44px;
+    height:44px;
+    text-align:center;
+    margin-right:8px;
+    border-radius:100%;
+    -webkit-transition:all .2s linear;
+    -o-transition:all .2s linear;
+    transition:all .2s linear
+  }
+  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
+  {
+    color:#fff;
+    background-color:#29aafe
+  }
+  .social-icons.size-sm a
+  {
+    line-height:34px;
+    height:34px;
+    width:34px;
+    font-size:14px
+  }
+  .social-icons a.facebook:hover
+  {
+    background-color:#3b5998
+  }
+  .social-icons a.twitter:hover
+  {
+    background-color:#00aced
+  }
+  .social-icons a.linkedin:hover
+  {
+    background-color:#007bb6
+  }
+  .social-icons a.dribbble:hover
+  {
+    background-color:#ea4c89
+  }
+  @media (max-width:767px)
+  {
+    .social-icons li.title
+    {
+      display:block;
+      margin-right:0;
+      font-weight:600
+    }
+  }
+
+  /* ########################End of Footer ######################### */
+  .about{
+    background-image: url(./containers/cover.png);
+    height: 550px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+  background-position: right;
+  background-position-x: 480px ;
+  background-color: rgb(225, 228, 236)
+  }
+  .jumbotron{
+    margin-left: 20px;
+    width: 40%;
+    float: left;
+    background-color: rgba(239, 241, 243, 0.863);
+    box-shadow: 0 4px 8px 0 rgba(0.3, 0, 0, 0.2), 0 6px 20px 0 rgba(0.4, 0, 0, 0.19);;
+    height: 360px;
+  }
+  
+
+  /* ########################LEADERBOARD ######################### */
+  .editor{
+    height: 1000px;
+  }
+  .log{
+    width: 100%;
+    height: 600px;
+    background-image: url('./containers/Login/wp4447999-spaceship-minimalist-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #edit{
+    box-shadow: 0 4px 8px 0 rgba(78, 105, 141, 0.2);
+  transition: 0.3s;
+    background-color:rgba(35, 35, 131, 0.667);
+    border: #617583;
+    border-style: solid;
+  }
+  .carousel {
+    text-align: center;
+    background-image: url("../src//assets/img/110567.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  

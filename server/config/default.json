@@ -1,0 +1,4 @@
+{
+    "mongoURI": "<PASTE DB URL>",
+    "secretOrKey": "SECRET KEY"
+}

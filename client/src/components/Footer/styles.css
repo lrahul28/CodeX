@@ -1,0 +1,19 @@
+.footer{
+    margin-top: 'auto';
+    padding: 1rem;
+    background-color: rgb(24, 24, 23);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.body{
+    color: beige;
+}
+.span{
+    color: bisque;
+}
+

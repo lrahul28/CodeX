@@ -1,0 +1,9 @@
+CLient id:
+CLient Secret:
+Name: CodeX
+Hostname: http://localhost:3000/
+Client Id: 
+Client Secret Key: 
+Quota
+Run: 1000 | Used: 0
+Compile: 1000 | Used: 0
