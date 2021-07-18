@@ -1,11 +1,13 @@
-# MINIPROJECT
-The Product we made is basically to provide a learning 
+# CodeX - Launch Your Code
+
+This Project is basically a conventional coding platform that provides specialized  
 environment that consolidates students programming abilities 
-and learn important algorithms by applying it on practical 
-problems. This helps making students adept in competitive 
-coding as well. The salient features include a convenient editor. 
-Conduction of weekly coding competitions and a weekly 
-leaderboard that helps in tracking a person’s progress.
+and learning process related to competitive coding.
+
+The salient features include a convenient editor. 
+Conduction of weekly coding competitions and a weekly.
+A real-time leaderboard that constantly tracks the top contestants during a ongoing contest and also on weekly basis.
+
 Moreover, this project is also intended to provide an assistance 
 to faculty in evaluating students programming assignments. 
 Basically, it’s a tedious task to evaluate all the assignments of 
