@@ -13,16 +13,23 @@ to faculty in evaluating students programming assignments.
 Basically, it’s a tedious task to evaluate all the assignments of 
 students and its hard to see each line of the code written.
 
-# TECHNOLOGY STACK INVOLVED:
-## FRONT END:
+# Tech Stack:
+
+## Front-End:
 - React Framework
 - Bootstrap
-## BACKEND:
+
+## Back-End:
 - MongoDB
 - ExpressJS
 - NodeJS
 - HackerEarth API
 - Socket io & Socket-io-client
+- JWT
+
+## State Management (Authentication):
+- Redux
+
 # OUTPUTS
 ### Home Page
 ![image](https://user-images.githubusercontent.com/61978190/110613930-cf309d00-81b7-11eb-972b-a62bf4a52e5b.png)
